@@ -3,20 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
 .d1{
-    width: 50%;
+    flex: 0.5;
+    height: 200px;
     background-color: blue;
-    display: inline-block;
 }
 .d2{
-    width: 300px;
+    flex: 0.25;
     height: 300px;
     background-color: rebeccapurple;
-    display: inline-block;
 }
 .d3{
-    width: 300px;
+    flex: 0.25;
     height: 300px;
     background-color: green;
-    display: inline-block;
 }
